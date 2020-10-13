@@ -2,7 +2,7 @@
     <div id="contenedor">
       <div id="padre" >
         <div id="elemento1">
-          <img id="imagen" src="../assets/descarga.png" alt="logo">
+          <img id="imagen" src="../../assets/descarga.png" alt="logo">
           <div id="titulos" >
             <h3>TIENDASDELIMA</h3>
             <h6>Haz que conozcan tu tienda</h6>

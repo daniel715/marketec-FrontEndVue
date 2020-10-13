@@ -1,18 +1,21 @@
 <template>
 <!--  <img alt="Vue logo" src="./assets/logo.png">-->
 <!--  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>-->
-  <Header/>
-  <!--<Carrusel/>-->
+  <!-- <Header/>
+  <Busqueda/>
+  <Carrusel/> -->
   <Barra/>
+  <!-- <Footer/> -->
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
-import Header from './components/Header.vue';
-import Busqueda from './components/Busqueda.vue';
-import Barra from './components/Barra.vue';
-import Carrusel from './components/Carrusel.vue'
+import HelloWorld from './components/PaginaPrincipal/HelloWorld.vue';
+import Header from './components/PaginaPrincipal/Header.vue';
+import Busqueda from './components/PaginaPrincipal/Busqueda.vue';
+import Barra from './components/PaginaPrincipal/Barra.vue';
+import Carrusel from './components/PaginaPrincipal/Carrusel.vue'
+import Footer from './components/PaginaPrincipal/Footer.vue'
 
 export default defineComponent({
   name: 'App',
@@ -21,7 +24,8 @@ export default defineComponent({
     Header,
     Busqueda,
     Barra,
-    Carrusel
+    Carrusel,
+    Footer
   }
 });
 </script>

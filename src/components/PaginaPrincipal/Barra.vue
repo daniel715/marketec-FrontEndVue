@@ -14,16 +14,14 @@
               <button  v-on:click="mostrar('bebidasalcoholicas')" class="dropdown-item">Bebidas Alcoholicas</button>
             </div>
           </div>
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+          
+            <button class="btn btn-secondary" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Carnes
             </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <button class="dropdown-item">Pollo</button>
-              <button class="dropdown-item">Res</button>
-              <button class="dropdown-item">Cerdo</button>
-            </div>
-          </div>
+          
+          
+
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Verduras
@@ -40,13 +38,13 @@
             <div>
               <button>
                 <h6> Apio </h6>
-                <img src='../assets/incakolaPersonal.jpg'>
+                <img src='../../assets/incakolaPersonal.jpg'>
               </button>
             </div>
             <div>
               <button>
                 <h6>  </h6>
-                <img src='../assets/cocaKolaPersona.png'>
+                <img src='../../assets/cocaKolaPersona.png'>
               </button>
             </div>
           </div>
@@ -55,13 +53,13 @@
         <div>
           <button>
             <h6> Inka Kola </h6>
-            <img src='../assets/incakolaPersonal.jpg'>
+            <img src='../../assets/incakolaPersonal.jpg'>
           </button>
         </div>
         <div>
           <button>
             <h6> Coca Kola </h6>
-            <img src='../assets/cocaKolaPersona.png'>
+            <img src='../../assets/cocaKolaPersona.png'>
           </button>
         </div>
       </div>
@@ -70,13 +68,13 @@
             <div>
               <button>
                 <h6> Inka Kola </h6>
-                <img src='../assets/incakolaPersonal.jpg'>
+                <img src='../../assets/incakolaPersonal.jpg'>
               </button>
             </div>
             <div>
               <button>
                 <h6> Coca Kola </h6>
-                <img src='../assets/cocaKolaPersona.png'>
+                <img src='../../assets/cocaKolaPersona.png'>
               </button>
             </div>
           </div>
@@ -85,13 +83,13 @@
             <div>
               <button>
                 <h6> Cielo </h6>
-                <img src='../assets/cieloPersonal.webp'>
+                <img src='../../assets/cieloPersonal.webp'>
               </button>
             </div>
             <div>
               <button>
                 <h6> San Mateo </h6>
-                <img src='../assets/sanmateoPersonal.webp'>
+                <img src='../../assets/sanmateoPersonal.webp'>
               </button>
             </div>
           </div>
@@ -100,13 +98,13 @@
           <div>
             <button>
               <h6> Ruskalla </h6>
-              <img src='../assets/ruskalla.webp'>
+              <img src='../../assets/ruskalla.webp'>
             </button>
           </div>
           <div>
             <button>
               <h6> Ron </h6>
-              <img src='../assets/ron.webp'>
+              <img src='../../assets/ron.webp'>
             </button>
           </div>
         </div>
@@ -157,7 +155,7 @@ export default {
   name: "Barra",
   data: function() {
     return{
-      producto:""
+      producto:"aguamineral"
     }
   },
 
