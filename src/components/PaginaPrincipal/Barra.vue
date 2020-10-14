@@ -16,35 +16,35 @@
           </div>
 
           
-            <button class="btn btn-secondary" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button v-on:click="mostrar('carnes')" class="btn btn-secondary" type="button">
               Carnes
             </button>
-          
-          
 
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="btn btn-secondary " type="button" >
               Verduras
             </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <button class="dropdown-item" >Vegetales</button>
-              <button class="dropdown-item" >Tuberculos</button>
-            </div>
-          </div>
+            
+         
 
         </div>
 
-          <div v-if="producto==='vegetales'" class="tabcontent">
+          <div v-if="producto==='carnes'" class="tabcontent">
             <div>
               <button>
-                <h6> Apio </h6>
-                <img src='../../assets/incakolaPersonal.jpg'>
+                <h6> Pollo </h6>
+                <img src='../../assets/pollo.jpg'>
               </button>
             </div>
             <div>
               <button>
-                <h6>  </h6>
-                <img src='../../assets/cocaKolaPersona.png'>
+                <h6> Carne  </h6>
+                <img src='../../assets/carne.jpg'>
+              </button>
+            </div>
+             <div>
+              <button>
+                <h6> Cerdo  </h6>
+                <img src='../../assets/cerdo.jpg'>
               </button>
             </div>
           </div>
