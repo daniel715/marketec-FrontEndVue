@@ -14,6 +14,8 @@
               <button  v-on:click="mostrar('bebidasalcoholicas')" class="dropdown-item">Bebidas Alcoholicas</button>
             </div>
           </div>
+          <button  v-on:click="mostrar('abarrotes')" class="dropdown-item">abarrotes</button>
+          <button  v-on:click="mostrar('frutas y verduras')" class="dropdown-item">frutas y verduras</button>
 
           
             <button v-on:click="mostrar('carnes')" class="btn btn-secondary" type="button">
@@ -58,6 +60,18 @@
         </div>
         <div>
           <button>
+            <h6> Yuca </h6>
+            <img src='../../assets/incakolaPersonal.jpg'>
+          </button>
+        </div>
+        <div>
+          <button>
+            <h6> Olluco </h6>
+            <img src='../../assets/incakolaPersonal.jpg'>
+          </button>
+        </div>
+        <div>
+          <button>
             <h6> Jengibre </h6>
             <img src='../../assets/cocaKolaPersona.png'>
           </button>
@@ -74,6 +88,12 @@
             <div>
               <button>
                 <h6> Coca Kola </h6>
+                <img src='../../assets/cocaKolaPersona.png'>
+              </button>
+            </div>
+            <div>
+              <button>
+                <h6> Sprite </h6>
                 <img src='../../assets/cocaKolaPersona.png'>
               </button>
             </div>
@@ -104,6 +124,12 @@
           <div>
             <button>
               <h6> Ron </h6>
+              <img src='../../assets/ron.webp'>
+            </button>
+          </div>
+          <div>
+            <button>
+              <h6> Cerveza </h6>
               <img src='../../assets/ron.webp'>
             </button>
           </div>
