@@ -21,6 +21,9 @@
             </button> 
         </div>
 
+
+
+
           <div v-if="producto==='carnes'" class="tabcontent">
             <div>
               <button>
@@ -45,13 +48,25 @@
       <div v-if="producto==='tuberculos'" class="tabcontent">
         <div>
           <button>
-            <h6> Inka Kola </h6>
+            <h6> Papa </h6>
             <img src='../../assets/incakolaPersonal.jpg'>
           </button>
         </div>
         <div>
           <button>
-            <h6> Coca Kola </h6>
+            <h6> Yuca </h6>
+            <img src='../../assets/incakolaPersonal.jpg'>
+          </button>
+        </div>
+        <div>
+          <button>
+            <h6> Olluco </h6>
+            <img src='../../assets/incakolaPersonal.jpg'>
+          </button>
+        </div>
+        <div>
+          <button>
+            <h6> Jengibre </h6>
             <img src='../../assets/cocaKolaPersona.png'>
           </button>
         </div>
@@ -67,6 +82,12 @@
             <div>
               <button>
                 <h6> Coca Kola </h6>
+                <img src='../../assets/cocaKolaPersona.png'>
+              </button>
+            </div>
+            <div>
+              <button>
+                <h6> Sprite </h6>
                 <img src='../../assets/cocaKolaPersona.png'>
               </button>
             </div>
@@ -97,6 +118,12 @@
           <div>
             <button>
               <h6> Ron </h6>
+              <img src='../../assets/ron.webp'>
+            </button>
+          </div>
+          <div>
+            <button>
+              <h6> Cerveza </h6>
               <img src='../../assets/ron.webp'>
             </button>
           </div>
