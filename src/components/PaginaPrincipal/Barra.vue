@@ -52,13 +52,13 @@
       <div v-if="producto==='tuberculos'" class="tabcontent">
         <div>
           <button>
-            <h6> Inka Kola </h6>
+            <h6> Papa </h6>
             <img src='../../assets/incakolaPersonal.jpg'>
           </button>
         </div>
         <div>
           <button>
-            <h6> Coca Kola </h6>
+            <h6> Jengibre </h6>
             <img src='../../assets/cocaKolaPersona.png'>
           </button>
         </div>
