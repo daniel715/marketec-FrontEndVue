@@ -19,7 +19,7 @@
                 <div class="item" >
                     <h6>Producto 3</h6>
                     <h6>Cantidad</h6>
-                    <button class="btn btn-secondary" >Quitar</button>
+                    <button class="btn btn-secondary" >Quitar</button>s
                 </div>
             </div>
           </div>
