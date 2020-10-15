@@ -1,6 +1,6 @@
 <template>
   <div id="contenedor" >
-      <div id="padre" >
+      <div id="padre">
           <div class="card" >
             <div class="card-header" >
                 Productos Agregados 
@@ -24,10 +24,16 @@ export default {
 </script>
 
 <style lang="sass" >
-
-.item
-    display: flex
-    direction: row
-    justify-content: space-around
+#contenedor
+    width: 100%
+    justify-content: center
+    #padre
+        width: 80%
+        .card
+            margin-top: 40px    
+            .item
+                display: flex
+                direction: row
+                justify-content: space-around
 
 </style>

@@ -1,8 +1,12 @@
 <template>
 <div id="contenedor" >
     <div id="padre" >
-        <Barra/>
-        <ListaAgregados/>
+        <div id="contenedorBarra" >
+            <Barra/>
+        </div>
+        <div id="contenedorListaAgregados" >
+            <ListaAgregados/>
+        </div>
     </div>
 </div>
 
@@ -20,7 +24,6 @@ export default {
         ListaAgregados,
         Barra
     }
-       
 }
 
 </script>
@@ -30,7 +33,12 @@ export default {
     display: flex
     justify-content: center
     #padre
+        height: 800px
         width: 80%
         display: flex
         flex-direction: row
+        #contenedorBarra
+            width: 60%
+        #contenedorListaAgregados
+            width: 40%
 </style>

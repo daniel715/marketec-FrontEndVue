@@ -3,7 +3,6 @@
   <div id="contenedor">
     <div id="padre">
         <div id="barra" >
-
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Bebidas
@@ -13,19 +12,13 @@
               <button  v-on:click="mostrar('gaseosa')" class="dropdown-item">Gaseosa</button>
               <button  v-on:click="mostrar('bebidasalcoholicas')" class="dropdown-item">Bebidas Alcoholicas</button>
             </div>
-          </div>
-
-          
+          </div>  
             <button v-on:click="mostrar('carnes')" class="btn btn-secondary" type="button">
               Carnes
             </button>
-
             <button class="btn btn-secondary " type="button" >
               Verduras
-            </button>
-            
-         
-
+            </button> 
         </div>
 
           <div v-if="producto==='carnes'" class="tabcontent">
@@ -119,9 +112,8 @@
 #contenedor
   display: flex
   justify-content: center
-  flex-direction: row
   #padre
-    width: 80%
+    width: 100%
     display: flex
     flex-direction: column
     justify-content: center
@@ -135,17 +127,15 @@
       display: flex
       flex-wrap: wrap
       border: solid 1px black
-      width: 80%
+      width: 100%
+      height: 100%
       div
         flex-grow: 1
-
       button
         border: 0px
       img
         width: 100px
         height: 120px
-
-
 </style>
 
 
