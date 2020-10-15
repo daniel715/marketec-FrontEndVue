@@ -11,6 +11,16 @@
                     <h6>Cantidad</h6>
                     <button class="btn btn-secondary" >Quitar</button>
                 </div>
+                <div class="item" >
+                    <h6>Producto 2</h6>
+                    <h6>Cantidad</h6>
+                    <button class="btn btn-secondary" >Quitar</button>
+                </div>
+                <div class="item" >
+                    <h6>Producto 3</h6>
+                    <h6>Cantidad</h6>
+                    <button class="btn btn-secondary" >Quitar</button>
+                </div>
             </div>
           </div>
       </div>
@@ -30,10 +40,11 @@ export default {
     #padre
         width: 80%
         .card
-            margin-top: 40px    
+            margin-top: 40px
+            width: 100%
             .item
+                margin-top: 10px
                 display: flex
                 direction: row
                 justify-content: space-around
-
 </style>
