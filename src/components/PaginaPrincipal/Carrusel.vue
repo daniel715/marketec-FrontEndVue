@@ -45,8 +45,7 @@ name: "Carrusel"
     width: 80%
     margin-top: 40px
     #carouselExampleControls
+      width: 100%
       img
         height: 800px
-
-
 </style>

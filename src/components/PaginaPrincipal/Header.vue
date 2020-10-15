@@ -12,9 +12,8 @@
         <div id="elemento3" >
           <a href="#">Quienes Somos?</a>
           <a href="#">Preguntas frecuentes</a>
+          <a href="#">Desear Vender?</a>
         </div>
-
-
         <button id="elemento2" class="btn btn-primary" > Iniciar Sesion </button>
       </div>
       <div id="lineagradiente" >
@@ -31,16 +30,17 @@
   justify-content: center
   flex-direction: column
   #padre
-    align-self: center
     width: 80%
+    height: 100px
     display: flex
+    align-self: center
     flex-direction: row
     justify-content: space-between
     #elemento1
       display: flex
+      flex-direction: row
       img
-        width: 100px
-        height: 80px
+        height: 100px
       #titulos
         padding-top: 16px
         h3, h6

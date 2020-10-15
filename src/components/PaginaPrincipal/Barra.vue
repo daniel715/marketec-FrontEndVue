@@ -137,9 +137,8 @@
     #barra
       margin-top: 40px
       display: flex
-      .dropdown
-        button
-          border-radius: 0px
+      button
+        border-radius: 0px 
     .tabcontent
       background-color: #999999 
       display: flex

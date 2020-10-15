@@ -1,15 +1,13 @@
 <template>
- <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/> -->
-  <!-- <Header/>
+  <Header/>
   <Busqueda/>
-  <Carrusel/> --> 
+  <Carrusel/> 
   <Comprar/>
-  <!-- <Footer/> -->
+  <Footer/>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from './components/PaginaPrincipal/HelloWorld.vue';
 import Header from './components/PaginaPrincipal/Header.vue';
 import Busqueda from './components/PaginaPrincipal/Busqueda.vue';
 import Carrusel from './components/PaginaPrincipal/Carrusel.vue'
@@ -20,7 +18,6 @@ import Comprar from './components/PaginaPrincipal/Comprar.vue'
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld,
     Header,
     Busqueda,
     Carrusel,

@@ -22,6 +22,7 @@ name: "Busqueda"
   justify-content: center
   flex-direction: row
   #padre
+    height: 50px
     width: 80%
     margin-top: 40px
     display: flex
