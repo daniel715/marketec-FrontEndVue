@@ -59,7 +59,7 @@
         color: #555555
   #lineagradiente
     border-color: white
-    height: 5px
+    height: 7px
     background: linear-gradient(to bottom, #777777, white)
 
 </style>
