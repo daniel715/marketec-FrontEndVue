@@ -21,6 +21,9 @@
           v-on:click="mostrar('tuberculos')"
           class="btn btn-secondary"
           type="button"
+
+
+
         >
           Tuberculos
         </button>
