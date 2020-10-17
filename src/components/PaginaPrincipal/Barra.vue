@@ -8,7 +8,7 @@
           class="btn btn-secondary"
           type="button"
         >
-          Bebidas
+          Bebidas asdfasdfasdflj;lk;
         </button>
         <button
           v-on:click="mostrar('carnes')"
