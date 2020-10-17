@@ -1,5 +1,4 @@
-<template> yosepiCojo
-
+<template>wda
   <div id="contenedor">
     <div id="padre">
       <div id="barra">
