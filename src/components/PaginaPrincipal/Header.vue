@@ -15,7 +15,7 @@
           <a href="#">Desear Vender?</a>
         </div>
         <div id="elemento3" >
-         
+          <button class="btn btn-dark" ><router-link to="/login" tag="button">Iniciar Sesion</router-link></button> 
         </div>
         
       </div>
@@ -79,6 +79,8 @@ export default {
       height: min-content
       align-self: center
       background-color: #228877
+      a
+        color: white
   #lineagradiente
     border-color: white
     height: 7px

@@ -96,15 +96,11 @@
         </div>
         <div class="form-row">
           <div class="col-md-3 mb-3">
-            <label for="validationCustom08">Departamento</label>
-            <input
-              v-model="departamento"
-              type="text"
-              class="form-control"
-              id="validationCustom08"
-              placeholder="Departamento"
-              required
-            />
+            <label for="validationCustom08">Departamentos</label>
+            <select v-model="departamento" class="form-control" >
+              <option value="" disabled>Seleccione Departamento</option>
+              <option v-for="depar in departamentos" :key="depar.id"> {{depar.nombre}} </option>
+            </select>
             <div class="invalid-feedback">Ingrese una direccion valida</div>
           </div>
 
@@ -153,10 +149,18 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   name: "RegistroUsuario",
   data: function(){
     return{
+      departamentos:[
+      ],
+      provincias:[
+      ],
+      distritos:[
+
+      ],
       primerNombre:"",
       apellidoMaterno:"",
       apellidoPaterno:"",
@@ -186,8 +190,17 @@ export default {
         direccion:this.direccion
       }
       console.log(payLoad)
+    },
+
+    traerDepartamentos(){
+      axios.get("https://marketec-boot.herokuapp.com/departamentos")
+      .then( res=> { this.departamentos=res.data; console.log(this.departamentos)})
+      .catch( err => {console.log(error,err)})
     }
-  }
+  },
+   mounted(){
+     this.traerDepartamentos();
+    }
 
 };
 </script>
