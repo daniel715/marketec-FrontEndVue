@@ -9,7 +9,6 @@
 </template>
 
 <script>
-import Barra from './Barra';
 import Header from  './Header.vue';
 import Busqueda from './Busqueda.vue';
 import Carrusel from './Carrusel.vue'
@@ -18,7 +17,6 @@ import Comprar from './Comprar.vue';
 
 export default {
     components:{
-        Barra,
         Header,
         Busqueda,
         Carrusel,

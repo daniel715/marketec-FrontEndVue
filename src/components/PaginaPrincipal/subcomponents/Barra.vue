@@ -30,7 +30,7 @@
         class="tabcontent"
       >
         <div>
-          <img src="../../assets/incakolaPersonal.jpg" />
+          <img src="../../../assets/incakolaPersonal.jpg" />
           <div class="descripcion">
             <span
               >Inca Kola<br/>
@@ -40,7 +40,7 @@
           <button value="incakola450ml">Agregar</button>
         </div>
         <div>
-          <img src="../../assets/cocaKolaPersona.png" />
+          <img src="../../../assets/cocaKolaPersona.png" />
           <div class="descripcion">
             <span
               >Cola Kola<br />
@@ -50,7 +50,7 @@
           <button value="cocakola450ml">Agregar</button>
         </div>
         <div>
-          <img src="../../assets/sprite.webp" />
+          <img src="../../../assets/sprite.webp" />
           <div class="descripcion">
             <span
               >Sprite<br />
@@ -60,7 +60,7 @@
           <button value="sprite450ml" >Agregar</button>
         </div>
         <div>
-          <img src="../../assets/cieloPersonal.webp" />
+          <img src="../../../assets/cieloPersonal.webp" />
           <div class="descripcion">
             <span
               >Cielo<br />
@@ -70,7 +70,7 @@
           <button value="cielo450ml" >Agregar</button>
         </div>
         <div>
-          <img src="../../assets/sanmateoPersonal.webp" />
+          <img src="../../../assets/sanmateoPersonal.webp" />
           <div class="descripcion">
             <span
               >San Mateo<br />
@@ -80,7 +80,7 @@
           <button value="sanmateo450ml" >Agregar</button>
         </div>
         <div>
-          <img src="../../assets/inca3litros.png" />
+          <img src="../../../assets/inca3litros.png" />
           <div class="descripcion">
             <span
               >Inca Kola <br />
@@ -90,7 +90,7 @@
           <button value="incakola3000ml" >Agregar</button>
         </div>
         <div>
-          <img src="../../assets/cola3litros.png" />
+          <img src="../../../assets/cola3litros.png" />
           <div class="descripcion">
             <span
               >Cola Kola<br />
@@ -100,7 +100,7 @@
           <button value="cocakola3000ml" >Agregar</button>
         </div>
         <div>
-          <img src="../../assets/ruskalla.webp" />
+          <img src="../../../assets/ruskalla.webp" />
           <div class="descripcion">
             <span
               >Ruskalla <br />
@@ -110,7 +110,7 @@
           <button value="ruskalla800ml" >Agregar</button>
         </div>
         <div>
-          <img src="../../assets/ron.webp" />
+          <img src="../../../assets/ron.webp" />
           <div class="descripcion">
             <span
               >Botella Ron<br />
@@ -120,7 +120,7 @@
           <button value="ron800ml" >Agregar</button>
         </div>
         <div>
-          <img src="../../assets/cristal.jpg" />
+          <img src="../../../assets/cristal.jpg" />
           <div class="descripcion">
             <span
               >Cristal <br />
@@ -132,7 +132,7 @@
       </div>
       <div v-if="producto === 'carnes'" class="tabcontent">
         <div>
-          <img src="../../assets/pollo.jpg" />
+          <img src="../../../assets/pollo.jpg" />
           <div class="descripcion">
             <span
               >Pollo <br />
@@ -142,7 +142,7 @@
           <button>Agregar</button>
         </div>
         <div>
-          <img src="../../assets/carne.jpg" />
+          <img src="../../../assets/carne.jpg" />
           <div class="descripcion">
             <span
               >Carne <br />
@@ -152,7 +152,7 @@
           <button>Agregar</button>
         </div>
         <div>
-          <img src="../../assets/cerdo.jpg" />
+          <img src="../../../assets/cerdo.jpg" />
           <div class="descripcion">
             <span
               >Cerdo <br />
@@ -164,7 +164,7 @@
       </div>
       <div v-if="producto === 'tuberculos'" class="tabcontent">
         <div>
-          <img src="../../assets/papa.jpg" />
+          <img src="../../../assets/papa.jpg" />
           <div class="descripcion">
             <span
               >Papa <br />
@@ -174,7 +174,7 @@
           <button>Agregar</button>
         </div>
         <div>
-          <img src="../../assets/yuca.jpg" />
+          <img src="../../../assets/yuca.jpg" />
           <div class="descripcion">
             <span
               >Yuca <br />
@@ -184,7 +184,7 @@
           <button>Agregar</button>
         </div>
         <div>
-          <img src="../../assets/olluco.webp" />
+          <img src="../../../assets/olluco.webp" />
           <div class="descripcion">
             <span
               >Olluco <br />
@@ -194,7 +194,7 @@
           <button>Agregar</button>
         </div>
         <div>
-          <img src="../../assets/jengibre.jpg" />
+          <img src="../../../assets/jengibre.jpg" />
           <div class="descripcion">
             <span
               >Jengibre <br />
